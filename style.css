@@ -73,15 +73,19 @@ nav .eshop-logo {
 }
 #products .products-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   justify-content: center;
-  gap: 40px;
+  gap: 10px;
 }
 #products .products-container .product {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+  background-color: #fff;
+  overflow: hidden;
+  width: 100%;
 }
 #products .products-container .product .product-img {
-  width: 100%;
+  max-width: 100%;
 }
 #products .products-container .product .product-img img {
   width: 100%;
